@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Map-Picks</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- top nav bar -->
+<div class="nav-top">
+    <button><a href="index.html">BASICS</a></button>
+    <button><a class="current" role="button" href="/map_picks.html">MAP picks</a></button>
+    <button><a href="home-team-stats.html">Home Team Stats</a></button>
+    <button><a href="#">Guest Team Stats</a></button>
+</div>
+
+
+    <!-- First Map -->
+<section>
+    <div class="heading">First Map</div>
+        <div class="grid">
+            <input type="text" id="" placeholder="Select map">
+            <input type="text" id="" placeholder="Select a picking team">
+            <div class="input-with-icon">
+                <input type="text" id="" placeholder="Home team score">
+                <img src="/static/image/dd.png">
+            </div>
+            <div class="input-with-icon">
+                <input type="text" id="" placeholder="guest team score">
+                <img src="/static/image/dd.png">
+            </div>
+            <input type="text" id="" placeholder="VOD link">
+            <div class="input-with-icon">
+                <input type="text" id="" placeholder="Upload Screenshot">
+                <i class="fa fa-paperclip static_placeholder"></i>
+            </div>
+        </div>
+</section>
+
+<!-- Second Map -->
+<section>
+    <div class="heading">First Map</div>
+        <div class="grid">
+            <input type="text" id="" placeholder="Select map" value="BIND">
+            <input type="text" id="" placeholder="Select a picking team" value="Delhi Dragons">
+            <input type="text" id="" placeholder="Home team score" value="13">
+            <input type="text" id="" placeholder="guest team score" value="5">
+            <input type="text" id="" placeholder="VOD link" value="HTTPS://youtube.com">
+                <input type="text" id="" placeholder="Upload Screenshot">
+        </div>
+</section>
+
+<!-- Third Map -->
+<section>
+    <div class="heading">Third Map</div>
+        <div class="grid">
+            <input type="text" id="" placeholder="Select map">
+            <input type="text" id="" placeholder="Select a picking team">
+            <input type="text" id="" placeholder="Home team score">
+            <input type="text" id="" placeholder="guest team score">
+            <input type="text" id="" placeholder="VOD link">
+            <input type="text" id="" placeholder="Upload Screenshot">
+        </div>
+</section>
+
+<a href="/home-team-stats.html"><button class="next" type="button" style="float: right; margin: 15px;">next</button></a>
+<a><button class="back" type="button" style="margin: 15px;" onclick="goBack()">back</button></a>
+<script src="/script.js"></script>
+</body>
+</html>

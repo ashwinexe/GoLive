@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link rel="stylesheet" href="/static/css/sidenav.css">
+</head>
+<body>
+
+        <div class="main">
+            <!-- top navigation -->
+            <div class="nav-top">
+                <button><a class="current" href="index.html">BASICS</a></button>
+                <button><a role="button" href="/map_picks.html">MAP picks</a></button>
+                <button><a class href="./home-team-stats.html">Home Team Stats</a></button>
+                <button><a href="#">Guest Team Stats</a></button>
+            </div>
+        
+        <!-- Match Details  -->
+        <section>
+            <div class="heading">Match Details</div>
+            <div class="details">
+                <!-- <input placeholder="selected tournament" style="display: flex; flex-wrap: wrap;border: none; margin-left: 15px;width: 464px;
+                height: fit-content;"> -->
+                <p style="font: normal normal 600 Rajdhani;
+                letter-spacing: 0px;
+                color: #5637A2;
+                text-transform: uppercase; padding-left: 25px;">selected tournament</p>
+                <div class="tournament-name">sky league tournament</div>
+                <div class="grid">
+                    <div class="input-with-icon">
+                        <input type="text" id="" value="  Mar 10, 2021 ">
+                        <i class="fa fa-calendar fa-2x static_placeholder" aria-hidden="true"></i>
+                    </div>
+                    <input type="text" id="" placeholder="match type">
+                </div>
+            </section>
+            
+            <!-- Teams and Score -->
+            <section>
+                <div class="heading">Teams and Score</div>
+                <div class="grid">
+                    <div class="input-with-icon">
+                        <img src="/static/image/dd.png">
+                        <input type="text" id="" value="  Delhi Dragons">
+                        <div class="static_placeholder">Home Team</div>
+                    </div>
+                    
+                    <div class="input-with-icon">
+                        <input type="text" id="" placeholder="select team">
+                        <div class="static_placeholder">Guest Team</div>
+                    </div>
+                    <input type="text" id="" placeholder="type home team score">
+                    <input type="text" id="" value="  5">
+                </div>
+            </section>
+            
+            <!-- Community Prediction -->
+            <section>
+                <div class="heading">Community Prediction</div>
+                <div class="grid">
+                    <div class="input-with-icon">
+                        <input type="text" id="" placeholder="Type Poll Percentage">
+                        <div class="static_placeholder">Result: 1 - 2</div>
+                    </div> 
+                    <div class="input-with-icon">
+                        <input type="text" id="" value="  35%">
+                        <div class="static_placeholder">Result: 1 - 2</div>
+                    </div> 
+                    <!-- <input type="text" id="" value="  20%">
+                    <input type="text" id="" placeholder="Type Poll Percentage"> -->
+                </div>
+        </section>
+        
+        
+           <a href="map_picks.html"> <button class="next" type="button" style="float: right; margin: 15px;">next</button></a>
+        </div>
+
+
+<script src="/script.js"></script>
+</body>
+</html>

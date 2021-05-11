@@ -1,0 +1,187 @@
+
+body {
+    background-color:#16032A;
+}
+
+* {
+    font: normal normal bold 16px/16px Rajdhani;
+    letter-spacing: 0.56px;
+    color: #FFFFFF;
+    text-transform: uppercase;
+}
+
+.nav-top {
+    display: flex;
+    padding: 10px;
+}
+
+.nav-top button {
+    background: transparent;
+    border: none;
+    padding: 14px;
+    
+}
+.nav-top a {
+    
+    text-decoration: none;
+    color: white;
+}
+
+.nav-top .current {
+    
+    border-bottom: 5px solid #BA32FF;
+    padding-bottom: 3px;
+}
+
+section {
+    display: flex;
+    margin: 15px;
+    background: #21123A 0% 0% no-repeat padding-box;
+    flex-direction: column;
+}
+
+section .details {
+    display: flex;
+    /* flex-flow: column; */
+    /* padding: 30px; */
+    flex-direction: column;
+}
+
+.heading {
+    padding: 15px;
+    height: 20px;
+}
+
+
+.tournament-name {
+    margin-left: 27px;
+    font-size: 25px;
+    letter-spacing: 0px;
+    font: normal normal Rajdhani;
+}
+
+.grid {
+    
+    display: flex;
+    padding: 25px;
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+}
+
+.supergrid {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    /* padding: 40px; */
+}
+
+.supergrid .grid {
+    /* flex-basis: 21%;     */
+    /* flex: 0 1 calc(20% - 8px); */
+    flex: 0 0 70%;
+    /* flex-basis: 70%; */
+    /* flex-wrap: wrap; */
+    /* flex-basis: 10%; */
+}
+
+.supergrid input {
+    /* width: 172px; */
+    width: 11.79vw;
+    height: 50px;
+}
+
+input {
+    /* width: 31.82vw; */
+    width: 464px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid #5637A2;
+    border-radius: 5px;
+    margin:10px;
+    padding-inline-start: 10px;
+}
+
+.input-with-icon {
+    display: flex;
+    flex-wrap:wrap-reverse;
+    border: 1px solid #5637A2;
+    border-radius: 5px;
+    width: 464px; 
+    height: 50px; 
+    margin: 10px;
+    /* justify-content: space-between; */
+    padding-right: 10px;
+
+}
+
+.input-with-icon input {
+    border: transparent;
+     height: auto;
+      width: auto;
+      flex-grow: 2;
+    
+}
+
+.input-with-icon img {
+    width: 50px;
+    height: 50px;
+}
+
+.input-with-icon .static_placeholder {
+     color: #BA32FF;
+     align-self: center;
+     font-size: x-large;
+}
+
+::placeholder {
+    color: #5637A2;
+    font: normal normal 600 18px/52px Rajdhani;
+    padding: 10px;  
+
+}
+
+::-ms-value {
+    font: normal normal normal 18px/52px Rajdhani;
+    color: #16032A;
+}
+
+.back, .next {
+    background: #BA32FF 0% 0% no-repeat padding-box;
+    border-radius: 5px;
+    width: 128px;
+    height: 50px;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 50px;
+    /* height: 50px; */
+    padding: 10px;
+    margin-left: 20px;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    flex-basis: 100%;
+    flex: 1;
+    padding: 15px;
+}
+.column {
+    display: flex;
+    flex-direction: column;
+    flex-basis: 100%;
+    flex: 1;
+}
+
+.score-box {
+    display: block;
+    width: 40px;
+    height: 80px;
+    background-color: #16032A;
+    border: 1px solid #5637a2;
+    margin: 15px;
+    text-align: center;
+    padding-top: 5px;
+}

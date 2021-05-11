@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/static/css/styles.css">
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+</head>
+<body>
+        <!-- top nav bar -->
+<div class="nav-top">
+    <button><a href="index.html">BASICS</a></button>
+    <button><a role="button" href="/map_picks.html">MAP picks</a></button>
+    <button><a class="current" href="#">Home Team Stats</a></button>
+    <button><a href="#">Guest Team Stats</a></button>
+</div>
+
+<!-- Team Name and Players -->
+<section style="flex-direction: row; align-items: center;">
+    <img src="/static/image/dd.png" alt="Delhi Dragons" style="width: 80px;
+    height:80px; padding: 10px; ">
+    <div class="row">   
+    <p style="font-size: 25px; margin-right: auto;">Delhi Dragons</p>
+    <img src="/static/image/p1.jpg" class="profile-img">
+    <img src="/static/image/p2.jpg" class="profile-img">
+    <img src="/static/image/p3.jpg" class="profile-img">
+    <img src="/static/image/p4.jpg" class="profile-img">
+    <img src="/static/image/p5.jpg" class="profile-img">
+</div>
+</section>
+
+<!-- All Maps -->
+<section>
+    <div class="row">All Maps</div>
+    <div class="row">
+        <div class="column" style="justify-content: center;">
+            <img src="/static/image/p5.jpg" class="profile-img">
+        </div>
+        <p class="column" style="margin-right: 50px; justify-content: center;">
+            Player 1
+        </p>
+        <div class="row 1">
+            <input class="column" type="text" id="ACS" placeholder="ACS">
+            <input class="column" type="text" id="KDA" placeholder="K / D / A">
+            <input class="column" type="text" id="ESR" placeholder="ESR, %">
+            <input class="column" type="text" id="MVP" placeholder="MVP">   
+        </div>
+        <div class="row 2">
+            <input class="column" type="text" id="FC" placeholder="FB">
+            <input class="column" type="text" id="FD" placeholder="FD">
+            <input class="column" type="text" id="agent_picker" placeholder="Select Agents Picked">   
+        </div>
+    </div>
+</section>
+
+<!-- Ascent -->
+<section>
+    <div class="heading">Ascent</div>
+    <div class="row">
+        <input type="Home Team Score" >
+        <input type="text" id="" placeholder="Guest Team Score">
+    </div>
+    
+    <div class="heading" style="margin-left: 10px;">1st Half</div>
+    <div class="row">
+        <input type="text" id="" placeholder="Attacking Team">
+        <input type="text" id="" placeholder="Defending Team">
+    </div>
+    <div class="row">
+    <div class="score-box">
+        <p>16</p>
+        <i class="fa fa-wrench" style="color:#4F66FF;"></i>
+    </div>
+    </div>
+    
+</section>
+
+<script src="script.js"></script>
+<a><button class="back" type="button" style="margin: 15px;" onclick="goBack()">back</button></a>
+</body>
+</html>
