@@ -130,7 +130,7 @@ input {
 .input-with-icon .static_placeholder {
      color: #BA32FF;
      align-self: center;
-     font-size: inherit;
+     font-size: x-;
 }
 
 ::placeholder {

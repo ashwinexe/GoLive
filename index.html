@@ -5,14 +5,49 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.min.css">
     <link rel="stylesheet" href="static/css/styles.css">
     <link rel="stylesheet" href="static/css/sidenav.css">
+    <script src="https://kit.fontawesome.com/3dfcfffa3b.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="autoOpen()">
 
-        <div class="main">
+    <!-- side navigation -->
+    <div id="sidenav" class="sidenav">
+        <div class="row" style="top: 0;">
+            <a href="javascript:void(0)" id="closebtn" class="closebtn" onclick="closeNav()" style="margin-top: 15px;">&times;</a>
+            <a href="https://gogame.live"><img src="/static/image/GoGame_Logo-01.png" alt="logo" width="150px"></a>
+        </div>
+        <div class="row" style="border-bottom: 4px solid #16032A;  border-top: 4px solid #16032A; flex-wrap: nowrap;">
+            <div class="column" style="justify-content: center;
+            align-items: center;
+            margin-left: -118px;
+            margin-right: -96px;">
+                <i class="fa fa-less-than" style="color:  #BA32FF; font-size: 15px  "></i>
+            </div>
+            <div class="column">
+                <p style="font-size: 20px; margin: 1px; font: normal normal normal 18px/16px Rajdhani;">New Age Esports</p>
+                <p style=" margin: 1px; font: normal normal 600 14px/16px Rajdhani;color: #BA32FF">Create tournament</p>
+            </div>
+        </div>
+    <div class="row" style="flex-direction: column;">
+    
+        <p>CREATE</p>
+        <p> Setup</p>
+        <p class="subheading">Brackets</p>
+        <p class="subheading">Streams</p>
+        <p class="subheading">Publish</p>
+    </div>
+
+    <div class="row" style="flex-direction: column;">
+        <p>SHARE</p>
+        <p class="subheading">Invite Players</p>
+        <p class="subheading">Embed Codes</p>
+    </div>
+
+</div>
+
+        <div id="main" class="main">
+        <span id="hamburger" style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
             <!-- top navigation -->
             <div class="nav-top">
                 <button><a class="current" href="index.html">BASICS</a></button>
@@ -80,7 +115,6 @@
         
            <a href="map_picks.html"> <button class="next" type="button" style="float: right; margin: 15px;">next</button></a>
         </div>
-
 
 <script src="script.js"></script>
 </body>
